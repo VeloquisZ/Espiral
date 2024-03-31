@@ -1,0 +1,70 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    background-image: linear-gradient(to right, #C4DFDF, #D2E9E9, #E3F4F4, #F8F6F4);
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: #9DB2BF;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+.card {
+    width: 320px;
+    height: 180px;
+    color: rgb(0, 0, 0);
+    background-color: #F4F4F4;
+    border-radius: 5px;
+    box-shadow: 7px 7px 7px 0 rgba(50, 50, 50, 0.22);
+    padding: 20px;
+    margin: 20px;
+    transition: all 0.3s ease-out;
+    border-left: 5px solid #9DB2BF;
+}
+
+.card p {
+    color: #000000;
+    font-size: 16px;
+}
